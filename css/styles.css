@@ -6,10 +6,9 @@
 }
 body{
     background: url(../media/bg.jpg) rgba(0,0,0,0.3);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-blend-mode: multiply;
+    
     
     
 }
@@ -62,23 +61,36 @@ body{
     margin: 15px;
 }
 .about{
-    color: rgb(239, 215, 250);
-    margin: 10px;
+    color: #98bcfa;
+    padding: 2% 30% ;
     text-align: center;
 }
-aside {
-    width: 40%;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #ce7af3;
-  }
-  
-  aside > p {
-    margin: 0.5rem;
-  }
+.history >h3{
+    text-align: center;
+}
+.history{
+        color: rgb(235, 231, 255);
+        margin: 5px;
+
+    }
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-gap:2px;
+    margin-bottom: 5%;
+    padding: 0 30%;
+    color: #da92f0;
+
+}
+.education {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    margin-top: 5px;
+    color: #b37feb;
+    padding: 0 30%;
+}
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -179,6 +191,13 @@ aside {
 .banner-img img{
     filter: drop-shadow(30px 40px 20px rgb(25, 16, 32));
 }
+footer {
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    
+  }
 
 
 .burbuja{
@@ -306,5 +325,24 @@ aside {
     .img img{
         width: 50px;
         height: 50px;
+    }
+    .text h1{
+        font-size: 2rem;
+    }
+    .text h2{
+        font-size: 1.5rem;;
+    }
+    .about{
+        padding: 0;
+        margin: 10px;
+
+    }
+    .experience{
+        padding: 0;
+        margin: 5px;
+    }
+    .education{
+        padding: 0;
+        margin: 5px;
     }
 }
