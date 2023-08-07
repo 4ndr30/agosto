@@ -1,85 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio en HTML y CSS">
-    <meta name="keywords" content="portfolio, developer, frontend, desarrollador, css, html, web">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Sriracha&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio en HTML y CSS" />
+    <meta
+      name="keywords"
+      content="portfolio, developer, frontend, desarrollador, css, html, web"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body class="vh-100 ">
+  </head>
+  <body class="vh-100">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark py-0">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/index.html"><img src="../media/logo.png" alt="logo-andrea-ortega" class="img-fluid logo"></a>
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header text-white border-bottom">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body d-flex">
-                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 ">
-                    <li class="nav-item mx-4">
-                      <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                      <a class="nav-link" href="../pages/about-me.html">About me</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../pages/skills.html">Skills</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="../pages/contact.html">Contact Me</a>
-                    </li>
-                    
-                  </ul>
-                  
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-dark py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="../media/logo.png"
+              alt="logo-andrea-ortega"
+              class="img-fluid logo"
+          /></a>
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="sidebar offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-          </nav>
+            <div class="offcanvas-body d-flex">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item mx-4">
+                  <a class="nav-link" aria-current="page" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="../pages/about-me.html">About me</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="../pages/skills.html">Skills</a>
+                </li>
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="../pages/contact.html"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <section>
       <h2 class="text text-center">Projects & Certificates</h2>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../media/yopg.png" class="d-block w-100" alt="argentina-programa">
+            <img
+              src="../media/yopg.png"
+              class="d-block w-100"
+              alt="argentina-programa"
+            />
           </div>
           <div class="carousel-item">
-            <img src="../media/pz1.png" class="d-block w-100" alt="platzi-frontend">
+            <img
+              src="../media/pz1.png"
+              class="d-block w-100"
+              alt="platzi-frontend"
+            />
           </div>
           <div class="carousel-item">
-            <img src="../media/pz2.png" class="d-block w-100" alt="platzi-angular">
+            <img
+              src="../media/pz2.png"
+              class="d-block w-100"
+              alt="platzi-angular"
+            />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
-</body>
+    <footer>
+      <p>&copy; 2023 Andrea Ortega. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
