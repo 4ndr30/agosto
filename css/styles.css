@@ -8,9 +8,6 @@ body{
     background: url(../media/bg.jpg) rgba(0,0,0,0.3);
     background-size: cover;
     background-position: center;
-    
-    
-    
 }
 
 .logo{
@@ -60,6 +57,29 @@ body{
     font-size: 20px;
     margin: 15px;
 }
+.text h2{
+    font-size: 2rem;
+}
+.text h4{
+    font-size: 2rem;
+}
+
+.text a {
+    text-decoration: none;
+    color: #751ad5;
+    background-color: rgba(50, 32, 94, 0.9);
+    padding: 10px 15px 5px 15px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(174, 0, 255), 0 0 25px rgb(204, 0, 255);
+}
+
+.text a:hover{
+    background-color: rgba(50, 32, 94, 0.9);
+    box-shadow: 0 0 5px rgb(174, 0, 255), 0 0 15px rgb(174, 0, 255),
+    0 0 30px rgb(218, 191, 231);
+}
+
 .about{
     color: #98bcfa;
     padding: 2% 30% ;
@@ -169,39 +189,19 @@ body{
     }
   }
 
-.text h2{
-    font-size: 2rem;
-}
-.text h4{
-    font-size: 2rem;
-}
-
-.text a {
-    text-decoration: none;
-    color: #751ad5;
-    background-color: rgba(50, 32, 94, 0.9);
-    padding: 10px 15px 5px 15px;
-    margin-top: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgb(174, 0, 255), 0 0 25px rgb(204, 0, 255);
-}
-
-.text a:hover{
-    background-color: rgba(50, 32, 94, 0.9);
-    box-shadow: 0 0 5px rgb(174, 0, 255), 0 0 15px rgb(174, 0, 255),
-    0 0 30px rgb(218, 191, 231);
-}
 
 .banner-img img{
     filter: drop-shadow(30px 40px 20px rgb(25, 16, 32));
 }
 footer {
-    color: aliceblue;
-    bottom: 0;
-    text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
     
   }
-
+.footer{
+    position: absolute;
+}
 
 .burbuja{
     border-radius: 50%;
@@ -333,7 +333,7 @@ footer {
         font-size: 2rem;
     }
     .text h2{
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
     .about{
         padding: 0;
