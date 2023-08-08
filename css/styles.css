@@ -185,14 +185,75 @@ body {
 .banner-img img {
   filter: drop-shadow(30px 40px 20px rgb(25, 16, 32));
 }
+#form {
+    position: relative;
+    width:200px;
+    margin: 5% 35%;
+  }
+  
+  input {
+    
+    font-size: 0.875em;
+    width: 400px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    color: #ffffff;;
+    border: solid 3px #aa44f8;
+    border-bottom: none;
+    cursor: pointer;
+   
+  }
+  
+  input:hover {
+    background: #8166f9;
+    color: #ebd2f5;
+    font-weight: 800;
+  }
+  
+  textarea {
+    width: 400px;
+    max-width: 400px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    font-size: 0.875em;
+    border: solid 3px #aa44f8;
+    cursor: pointer;
+  }
+  
+  textarea:hover {
+    background: #8166f9;
+    
+  }
+  
+  #submit {
+    width: 400px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-size: 0.875em;
+    color: #ffffff;
+    cursor: pointer;
+    border: solid 3px #aa44f8;
+  }
+  
+  #submit:hover {
+    color: #310b3f;
+    font-weight: 800;
+  }
+::placeholder { 
+    color: rgb(218, 168, 243);
+ }
 footer {
   bottom: 0;
   width: 100%;
   color: #fff;
+  text-align: center;
 }
-.footer {
+/* .footer {
   position: absolute;
-}
+} */
 
 .burbuja {
   border-radius: 50%;
@@ -310,6 +371,33 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
   }
+  .banner{
+    margin: 0;
+  }
+  #form {
+    position: relative;
+    width:300px;
+    margin: auto;
+  }
+  
+  input {
+        width: 300px;
+      }
+  
+  textarea {
+    width: 300px;
+    max-width: 300px;
+     }
+  
+  
+  #submit {
+    width: 300px;
+    margin: -5px 0px 10px 0px;
+    
+  }
+  .footer{
+    position: absolute;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -341,4 +429,6 @@ footer {
   .history {
     font-size: 15px;
   }
+  
+  
 }
